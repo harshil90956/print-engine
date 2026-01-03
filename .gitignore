@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Packaging / builds
+build/
+dist/
+*.egg-info/
+
+# Test / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local runtime artifacts
+*.log
+*.tmp
+
+# Local outputs (keep repo clean)
+*.pdf
+
+# Local env (root .gitignore also covers, but ok to repeat in subdir)
+.env
+.env.*
+!.env.example
