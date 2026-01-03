@@ -2,6 +2,7 @@ fastapi==0.115.6
 uvicorn==0.32.1
 pydantic==2.10.4
 python-dotenv==1.0.1
+fonttools==4.55.3
 reportlab
 boto3
 cairosvg
